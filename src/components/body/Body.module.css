@@ -1,0 +1,73 @@
+.bodyContainer{
+    width: 100%;
+}
+
+.bodyMainContainer {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+        background-size: cover; /* Ensure the image covers the container */
+        background-position: center; /* Center the image */
+    }
+    
+.bodyfirstContainer{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 20%;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodypara{
+    font-size: 22px;
+}
+.bodyfirstheading{
+    font-size: 48px;
+    font-weight: 900;
+}
+.bodysecondheading{
+    font-size: 48px;
+    font-weight: 900;
+    color: #E11D48;
+}
+.btndiv{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-left: 40px;
+}
+.leftbtn , .rightbtn{
+    padding: 2vh 2.5vw ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.leftbtn {
+    background-color: #E11D48;
+    color: #fff;
+    font-size: 16px;
+}
+.rightbtn{
+    background-color: #fff;
+    color: #E11D48;
+    font-size: 16px;
+
+}
+
+.bodySecondContainer{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 4rem;
+}
+.bodySecondContainer img{
+    
+    width: 100%;
+    height: 400px;
+    margin-left: 5rem;
+}
