@@ -1,0 +1,10 @@
+.footerdiv{
+    width: 100%;
+    height: 400px;
+    background-color: #F3F4F6;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    justify-content: center;
+}
