@@ -1,6 +1,6 @@
-import styles from "./Body.module.css"
+import styles from "./Section.module.css"
 
-const Body = () => {
+const Section = () => {
     return (
         <div className = {styles.bodyContainer}>
          <div className = {styles.bodyMainContainer}>
@@ -37,4 +37,4 @@ const Body = () => {
     )
 }
 
-export default Body; 
+export default Section; 

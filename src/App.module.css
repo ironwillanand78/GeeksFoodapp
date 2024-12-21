@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+.cardContainer {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: flex-start;
+  align-items: flex-start; 
+  width: 100%; 
+  margin: 0 auto; 
+  padding-left: 60px;
+
+}
